@@ -1,0 +1,1 @@
+python3.10 detect.py --weights 'runs/train/my_model/weights/best.pt' --img 1996 --conf 0.25 --iou 0.5 --save-txt --save-conf --source ../datasets/VisDrone/VisDrone2019-DET-test-challenge/images --augment --name v5l
